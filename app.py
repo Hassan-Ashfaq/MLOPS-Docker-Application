@@ -17,7 +17,6 @@ def Train():
 
 model = Train()
 
-
 @app.route('/', methods=['GET', 'POST'])
 def home():
     if request.method == 'POST':
