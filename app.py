@@ -15,6 +15,7 @@ def Train():
     print('Model Trained :-)')
     return model
 
+
 model = Train()
 
 @app.route('/', methods=['GET', 'POST'])
